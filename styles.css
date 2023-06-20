@@ -11,6 +11,12 @@ body {
 }
 h1, h2,h3, p {
     margin: 0;
+    color:aqua
+}
+
+p{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 header { 
     padding: 15px 6% 15px 0;
@@ -22,22 +28,26 @@ header {
     background-color: aqua;
 }
 header h1 {
-    color: blue;
-    background-color: ;
+    color: aqua;
+    background-color:purple;
     padding: 5px 1% 5px 6%;
     margin: 0;
     font-size: 4vw;
     line-height: 1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 header nav{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color:aqua
 }
 nav a {
     text-decoration: none;
     padding: 5px 10px;
-    color:blue;
+    color:aqua;
     margin-right: 10px;
 }
 .foodie{ width: 4%; height: 40px;}
