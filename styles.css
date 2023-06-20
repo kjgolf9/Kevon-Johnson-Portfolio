@@ -23,7 +23,7 @@ header {
 }
 header h1 {
     color: blue;
-    background-color: black;
+    background-color: ;
     padding: 5px 1% 5px 6%;
     margin: 0;
     font-size: 4vw;
@@ -37,7 +37,7 @@ header nav{
 nav a {
     text-decoration: none;
     padding: 5px 10px;
-    color: blue;
+    color:blue;
     margin-right: 10px;
 }
 .foodie{ width: 4%; height: 40px;}
@@ -74,10 +74,5 @@ nav a {
 
 
 header {
-  background-color: #f1f1f1; /* Set a background color */
+  background-color: purple; /* Set a background color */
 }
-
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: red;
-    opacity: 1; /* Firefox */
-  }
